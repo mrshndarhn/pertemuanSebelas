@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "187178616522",
+    "project_id": "pertemuansebelas-b98ad",
+    "storage_bucket": "pertemuansebelas-b98ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187178616522:android:be9a2cbd8c3aae4f76d633",
+        "android_client_info": {
+          "package_name": "com.marshanda.pertemuansebelas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187178616522-sm21r03lp4c9827hn3bu3k5qj6ffu86d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg-JOjxylVX4vGXO4w6HfRSAQ4JBFhHek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187178616522-sm21r03lp4c9827hn3bu3k5qj6ffu86d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
