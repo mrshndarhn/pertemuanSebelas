@@ -5,10 +5,11 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.app.pertemuansebelas.adapter.HomeAdapter
 import com.google.firebase.database.*
 import com.marshanda.pertemuansebelas.R
-import com.marshanda.pertemuansebelas.adapter.HomeAdapter
 import com.marshanda.pertemuansebelas.databinding.FragmentHomeBinding
 import com.marshanda.pertemuansebelas.model.Mahasiswa
 
@@ -28,6 +29,9 @@ class HomeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        binding.btnAdd.setOnClickListener{
+            findNavController().navigate(R.id.action_homeFragment_to_tambahFragment)
+        }
 
         adapter = HomeAdapter(ArrayList())
         binding.rvUser.adapter = adapter
@@ -51,6 +55,10 @@ class HomeFragment : Fragment() {
             }
 
         })
-    }
 
-}
+        binding.btnAdd.setOnClickListener{
+            findNavController().navigate(R.id.action_homeFragment_to_tambahFragment)
+        }
+
+        }
+    }
